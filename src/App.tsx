@@ -201,7 +201,7 @@ const Hero = () => {
         >
           <div className="relative z-10 rounded-none md:rounded-3xl overflow-hidden shadow-none md:shadow-2xl aspect-video bg-slate-200 border-0 md:border-4 border-white">
             <img 
-              src="https://i.imgur.com/O42mJJ7.jpeg" 
+              src="https://i.imgur.com/ED9m5th.jpeg" 
               alt="Soya 許舒韻 - 第一桶金幸福學" 
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
@@ -745,24 +745,24 @@ const VisualQA = () => {
         </div>
       ),
       images: [
-        "https://i.imgur.com/T8Z27EG.jpeg",
-        "https://i.imgur.com/mgd05qj.jpeg",
-        "https://i.imgur.com/Cd4UIXJ.jpeg",
-        "https://i.imgur.com/7b60nkL.jpeg",
-        "https://i.imgur.com/oeLhwhg.jpeg"
+        "https://i.imgur.com/dqV8Drp.jpeg",
+        "https://i.imgur.com/c30ImMT.jpeg",
+        "https://i.imgur.com/4pvitDy.jpeg",
+        "https://i.imgur.com/itHEJRV.jpeg",
+        "https://i.imgur.com/7h7gVUm.jpeg"
       ]
     },
     {
       q: "Soya老師跟坊間老師有什麼差別?",
       a: "",
       images: [
-        "https://i.imgur.com/v1Ww9rC.png",
-        "https://i.imgur.com/mp5fAZM.jpeg",
-        "https://i.imgur.com/ty3oPYN.jpeg",
-        "https://i.imgur.com/lWEm7Ny.jpeg",
+        "https://i.imgur.com/UlCO3V2.png",
+        "https://i.imgur.com/fcHdWWZ.jpeg",
+        "https://i.imgur.com/dj6bGKw.jpeg",
+        "https://i.imgur.com/OspvhtR.jpeg",
         "https://i.imgur.com/8XgTo5I.jpeg",
-        "https://i.imgur.com/qHmejK5.jpeg",
-        "https://i.imgur.com/QNDi2q8.jpeg"
+        "https://i.imgur.com/Vglb1G9.jpeg",
+        "https://i.imgur.com/nGQxGgS.jpeg"
       ]
     }
   ];
@@ -1168,7 +1168,7 @@ export default function App() {
       <section className="w-full bg-[#4E342E] md:bg-white">
         <div className="max-w-7xl mx-auto px-0 md:px-6 pt-12 pb-0 md:py-24">
           <img 
-            src="https://i.imgur.com/lEjVPYQ.jpeg" 
+            src="https://i.imgur.com/8o61yM5.jpeg" 
             alt="Investment Strategy Banner" 
             className="w-full h-auto rounded-none md:rounded-3xl shadow-lg block"
             referrerPolicy="no-referrer"
@@ -1261,7 +1261,7 @@ export default function App() {
               className="mt-6 md:my-24 w-full max-w-5xl mx-auto px-0 md:px-4"
             >
               <img 
-                src="https://i.imgur.com/94ugFuO.jpeg" 
+                src="https://i.imgur.com/EoMgNMU.jpeg" 
                 alt="破除困境示意圖" 
                 referrerPolicy="no-referrer"
                 className="w-full h-auto rounded-none md:rounded-[2rem]"
@@ -1275,7 +1275,7 @@ export default function App() {
       {/* Full-width Registration Image with Centered Button */}
       <section className="relative w-full overflow-hidden md:pt-0 pb-0 md:pb-24 bg-white">
         <img 
-          src="https://i.imgur.com/0mbPOVW.jpeg" 
+          src="https://i.imgur.com/NVQr0xN.jpeg" 
           alt="報名資訊" 
           referrerPolicy="no-referrer"
           className="w-full h-[180px] md:h-auto object-cover md:object-contain block"
@@ -1369,7 +1369,7 @@ export default function App() {
               className="mt-6 md:my-24 w-full max-w-5xl mx-auto px-0 md:px-4"
             >
               <img 
-                src="https://i.imgur.com/nASEpdS.jpeg" 
+                src="https://i.imgur.com/GM1gaiR.jpeg" 
                 alt="破除困境示意圖" 
                 referrerPolicy="no-referrer"
                 className="w-full h-auto rounded-none md:rounded-[2rem]"
@@ -1409,7 +1409,7 @@ export default function App() {
 
         <div className="relative w-full">
           <img 
-            src="https://i.imgur.com/pNXQsVW.jpeg" 
+            src="https://i.imgur.com/xioWtUx.jpeg" 
             alt="報名資訊" 
             referrerPolicy="no-referrer"
             className="w-full h-[180px] md:h-auto object-cover md:object-contain block"
@@ -1504,7 +1504,7 @@ export default function App() {
               className="mt-6 md:mt-8 md:mb-12 w-full max-w-5xl mx-auto px-0 md:px-4 relative group"
             >
               <img 
-                src="https://i.imgur.com/R70WQNO.jpeg" 
+                src="https://i.imgur.com/Nysc46m.jpeg" 
                 alt="破除困境示意圖" 
                 referrerPolicy="no-referrer"
                 className="w-full h-auto rounded-none md:rounded-[2rem]"
@@ -1549,7 +1549,7 @@ export default function App() {
             className="hidden md:block"
           >
             <img 
-              src="https://i.imgur.com/RgXO1Bk.jpeg" 
+              src="https://i.imgur.com/X4imZdK.jpeg" 
               alt="見證改變" 
               className="w-full h-auto block"
               referrerPolicy="no-referrer"
@@ -1604,7 +1604,7 @@ export default function App() {
               className="rounded-3xl overflow-hidden shadow-2xl"
             >
               <img 
-                src="https://i.imgur.com/geVUcfV.jpeg" 
+                src="https://i.imgur.com/vBUy21I.jpeg" 
                 alt="實戰見證 1" 
                 className="w-full h-auto hover:scale-105 transition-transform duration-700" 
                 referrerPolicy="no-referrer" 
@@ -1618,7 +1618,7 @@ export default function App() {
               className="rounded-3xl overflow-hidden shadow-2xl"
             >
               <img 
-                src="https://i.imgur.com/PeN8RZ6.jpeg" 
+                src="https://i.imgur.com/o0NXeDF.jpeg" 
                 alt="實戰見證 2" 
                 className="w-full h-auto hover:scale-105 transition-transform duration-700" 
                 referrerPolicy="no-referrer" 
