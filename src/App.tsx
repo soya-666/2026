@@ -400,13 +400,6 @@ const Testimonials = () => {
       date: "2026-02-23"
     },
     {
-      name: "Steven",
-      role: "學員",
-      content: "課程有料！過去上過的課程都艱深難懂\n教學內容化繁為簡\n非常容易運用！\n推推",
-      avatar: "https://i.imgur.com/6siiq3q.jpeg",
-      date: "2026-02-23"
-    },
-    {
       name: "Lu*",
       role: "學員",
       content: "原本很抗拒積極操作，一直以來都是做被動投資，但老師的課讓我有了新的想法，改變了我的視野、醍醐灌頂",
@@ -622,6 +615,13 @@ const Testimonials = () => {
       content: "讚",
       avatar: "https://picsum.photos/seed/zhanxi/150/150",
       date: "2026-02-10"
+    },
+    {
+      name: "Steven",
+      role: "學員",
+      content: "課程有料！過去上過的課程都艱深難懂\n教學內容化繁為簡\n非常容易運用！\n推推",
+      avatar: "https://i.imgur.com/6siiq3q.jpeg",
+      date: "2026-02-23"
     }
   ];
 
