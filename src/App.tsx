@@ -106,7 +106,8 @@ const Counter = ({ value, suffix = "" }: { value: number; suffix?: string }) => 
   const count = useMotionValue(0);
   const rounded = useTransform(count, (latest) => Math.round(latest).toLocaleString());
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
+  // 勿用負 margin：桌面版 Hero 用 items-end，數字常落在視窗底緣，-100px 會讓 IO 永遠判定為不可見
+  const isInView = useInView(ref, { once: true, amount: 0.15 });
 
   useEffect(() => {
     if (isInView) {
@@ -157,7 +158,7 @@ const Hero = () => {
               <span className="flex items-center gap-2">
                 <Star size={20} fill="white" className="text-white" /> 5.0/5.0
               </span>
-              <span className="text-[16px] md:text-sm font-normal text-white/90 mt-1">(33則評論)</span>
+              <span className="text-[16px] md:text-sm font-normal text-white/90 mt-1">(32則評論)</span>
             </a>
           </div>
           
@@ -392,13 +393,6 @@ const Testimonials = () => {
   const [showAll, setShowAll] = useState(false);
   
   const reviews = [
-    {
-      name: "廖天佑 Bless Liao",
-      role: "學員",
-      content: "成為學員超過6年了，SOYA老師人美心善，真的要好好珍惜，歡迎加入一起做公益！",
-      avatar: "https://i.imgur.com/NbOLOnJ.jpeg",
-      date: "2026-02-23"
-    },
     {
       name: "Lu*",
       role: "學員",
@@ -644,7 +638,7 @@ const Testimonials = () => {
             <div className="ml-4 text-[15px] font-medium text-slate-600 flex items-center gap-1.5">
               <Star size={16} fill="currentColor" className="text-amber-400" />
               <span className="text-gold-600 font-bold">5.0</span>
-              <span className="text-slate-400 ml-1">(33則評論)</span>
+              <span className="text-slate-400 ml-1">(32則評論)</span>
             </div>
           </div>
         </div>
