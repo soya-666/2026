@@ -186,9 +186,15 @@ const Hero = () => {
             <div className="hidden sm:block w-px h-10 bg-slate-200" />
             <div className="text-center lg:text-left">
               <div className="text-[20px] md:text-3xl font-bold text-slate-900 whitespace-nowrap">
-                <Counter value={150} suffix="+" />
+                <span className="sm:hidden">
+                  <Counter value={20000} suffix="+" />
+                </span>
+                <span className="hidden sm:inline">
+                  <Counter value={150} suffix="+" />
+                </span>
               </div>
-              <div className="text-[12px] lg:text-xs text-slate-500 whitespace-nowrap">實體講座</div>
+              <div className="text-[12px] lg:text-xs text-slate-500 whitespace-nowrap sm:hidden">累積聽講人數</div>
+              <div className="text-[12px] lg:text-xs text-slate-500 whitespace-nowrap hidden sm:block">實體講座</div>
             </div>
           </div>
         </motion.div>
