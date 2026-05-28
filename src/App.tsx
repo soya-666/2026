@@ -919,7 +919,7 @@ const VisualQA = () => {
                           title: "學員訪談，從小白到上手僅歷時九個月" 
                         },
                         { 
-                          url: "https://res.cloudinary.com/dinmty6gb/video/upload/v1774115327/%E4%BB%A5%E7%82%BA%E8%87%AA%E5%B7%B1%E6%98%AF%E5%A4%A9%E7%B8%B1%E8%8B%B1%E6%89%8D_%E7%9B%B4%E5%88%B0%E6%85%98%E8%B3%A0300%E8%90%AC%E6%89%8D%E5%AD%B8%E6%9C%83%E7%9A%84%E4%BA%A4%E6%98%93%E7%9C%9F%E7%9B%B8_c0l0ga.mp4", 
+                          url: "https://res.cloudinary.com/dslcmkvrz/video/upload/v1779899609/%E4%BF%AE%E8%83%BD_21M_dfkbz7.mp4", 
                           title: "以為自己是天縱英才？直到慘賠300萬才學會的交易真相" 
                         }
                       ].map((video, i) => (
