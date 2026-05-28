@@ -915,7 +915,7 @@ const VisualQA = () => {
                     <div className="grid md:grid-cols-2 gap-4 md:gap-8">
                       {[
                         { 
-                          url: "https://res.cloudinary.com/dinmty6gb/video/upload/v1774115328/%E5%AD%B8%E5%93%A1%E8%A8%AA%E8%AB%87_%E5%BE%9E%E5%B0%8F%E7%99%BD%E5%88%B0%E4%B8%8A%E6%89%8B%E5%83%85%E6%AD%B7%E6%99%82%E4%B9%9D%E5%80%8B%E6%9C%88_pucawm.mp4", 
+                          url: "https://res.cloudinary.com/dslcmkvrz/video/upload/v1779934902/%E6%96%B0%E6%89%8B_24M_ww3djs.mp4", 
                           title: "學員訪談，從小白到上手僅歷時九個月" 
                         },
                         { 
@@ -1219,7 +1219,7 @@ export default function App() {
           </div>
           <div className="flex flex-col md:flex-row gap-8 items-stretch px-6 md:px-0">
             <div className="w-full md:w-[40%]">
-              <ScrollVideo src="https://res.cloudinary.com/dinmty6gb/video/upload/v1774007185/%E5%8F%B0%E7%81%A3%E4%BA%BA%E7%94%9F_iicuqu.mp4" index="1" />
+              <ScrollVideo src="https://res.cloudinary.com/dslcmkvrz/video/upload/v1779934867/TWlife_16M_txximz.mp4" index="1" />
             </div>
             <motion.div 
               initial={{ opacity: 0, x: 20 }}
@@ -1328,7 +1328,7 @@ export default function App() {
           <div className="flex flex-col md:flex-row gap-8 items-stretch px-6 md:px-0">
             <div className="w-full md:w-[40%]">
               <ScrollVideo 
-                src="https://res.cloudinary.com/dinmty6gb/video/upload/v1774007779/1_wtogop.mp4" 
+                src="https://res.cloudinary.com/dslcmkvrz/video/upload/v1779899475/1__14M_qnacax.mp4" 
                 index="2"
               />
             </div>
@@ -1470,7 +1470,7 @@ onClick={() => {
           <div className="flex flex-col md:flex-row gap-8 items-stretch px-6 md:px-0">
             <div className="w-full md:w-[40%]">
               <ScrollVideo 
-                src="https://res.cloudinary.com/dinmty6gb/video/upload/v1774001786/300%E8%90%AC_iqucxx.mp4" 
+                src="https://res.cloudinary.com/dslcmkvrz/video/upload/v1779899516/300w_9M_wbf0eg.mp4" 
                 index="3"
               />
             </div>
